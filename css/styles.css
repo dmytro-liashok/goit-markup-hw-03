@@ -111,9 +111,11 @@ body {
   margin-right: auto;
 }
 
-.logo {
+.header-logo {
   margin-right: 76px;
+}
 
+.logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -185,8 +187,7 @@ body {
 }
 
 .hero-btn {
-  min-width: 169px;
-  height: 56px;
+  padding: 16px 32px;
 
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -261,6 +262,10 @@ body {
   max-width: 264px;
   width: calc((100%-72px) / 4);
   background-color: var(--white-color);
+
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-item-wrap {
@@ -330,7 +335,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
 
-  border: none;
+  border: 1px solid #e7e9fc;
   border-radius: 4px;
 
   background-color: var(--team-color);
@@ -363,7 +368,6 @@ body {
 
 .works-card-wrap {
   padding: 32px 16px;
-  border: 1px solid #e7e9fc;
   border-width: 0 1px 1px 1px; /* top right bottom left */
   border-style: solid;
   border-color: #e7e9fc;
