@@ -311,6 +311,7 @@ body {
 /*------------------------------WORKS---------------------------------*/
 .works {
   padding-bottom: 120px;
+  padding-top: 96px;
 }
 .visually-hidden {
 }
@@ -319,7 +320,6 @@ body {
   justify-content: center;
   gap: 24px;
 
-  padding-top: 96px;
   margin-bottom: 72px;
 }
 
